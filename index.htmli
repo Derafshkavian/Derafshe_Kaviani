@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>درفش کاویانی</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #7a003c, #ffd700, #800080);
+      color: #fff;
+      font-family: "Vazirmatn", sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    img.logo {
+      width: 220px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+      margin-bottom: 1rem;
+    }
+    .poem {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 1.5rem;
+      border-radius: 1rem;
+      line-height: 2.2rem;
+      font-size: 1.2rem;
+      white-space: pre-line;
+      margin-top: 2rem;
+    }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>  <img src="A_2D_digital_image_features_an_ancient_bronze_embl.png" alt="لوگو درفش کاویانی" class="logo">
+  <h1>درفش کاویانی</h1>
+  <p>پژوهشی دربارهٔ نماد کهن ایران، بر پایهٔ کشف تصویری در موزهٔ لوور</p>  <div class="poem">
+ازآن چرم کاهنگران پشت پای<br>
+بپوشند هنگام زخم درای<br>
+همان کاوه آن بر سر نیزه کرد<br>
+همانگه ز بازار برخاست گرد<br>
+بدان بی‌بها ناسزاوار پوست<br>
+پدید آمد آوای دشمن ز دوست<br>
+چو آن پوست بر نیزه بر دید کی<br>
+به نیکی یکی اختر افگند پی<br>
+بیاراست آن را به دیبای روم<br>
+ز گوهر بر و پیکر از زر بوم<br>
+بزد بر سر خویش چون گرد ماه<br>
+یکی فال فرخ پی افکند شاه<br>
+فرو هشت ازو سرخ و زرد و بنفش<br>
+همی خواندش کاویانی درفش<br>
+از آن پس هر آنکس که بگرفت گاه<br>
+به شاهی بسر برنهادی کلاه<br>
+برآن بی‌بها چرم آهنگران<br>
+برآویختی نو به نو گوهران<br>
+ز دیبای پرمایه و پرنیان<br>
+برآن گونه شد اختر کاویان<br>
+که اندر شب تیره خورشید بود<br>
+جهان را ازو دل پرامید بود
+<br>(فردوسی)
+  </div>  <div class="footer">
+    <p>کانال تلگرام: <a href="https://t.me/Derafshe_Kavian" target="_blank">@Derafshe_Kavian</a></p>
+  </div></body>
+                                                                          </html>
