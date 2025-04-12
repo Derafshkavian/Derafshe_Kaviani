@@ -317,18 +317,41 @@
 <style>
 .white-text {
   color: #FFFFFF;
-  margin-bottom: 20px; /* برای ایجاد فاصله از پست قبلی */
+  margin-bottom: 20px;
 }
 
-.image-pair {
+.image-container {
   display: flex;
-  gap: 10px; /* فاصله بین تصاویر در هر زوج */
-  margin-bottom: 10px; /* فاصله بین زوج‌های تصویر و متن */
+  flex-wrap: wrap; /* برای قرار گرفتن تصاویر در ردیف‌های بعدی در صورت کمبود فضا */
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
-.single-image {
-  margin-bottom: 10px; /* فاصله از متن بعد از تصویر تکی */
+.image-container img {
+  max-width: 80%; /* حداکثر 80% عرض صفحه */
+  height: auto; /* حفظ نسبت تصویر */
 }
+
+/* برای محدود کردن عرض در پیکسل (جایگزین max-width در صورت نیاز) */
+/*.image-container img {
+  max-width: 600px;
+  height: auto;
+}*/
+
+.single-image-container {
+  margin-bottom: 10px;
+}
+
+.single-image-container img {
+  max-width: 80%; /* حداکثر 80% عرض صفحه */
+  height: auto; /* حفظ نسبت تصویر */
+}
+
+/* برای محدود کردن عرض در پیکسل (جایگزین max-width در صورت نیاز) */
+/*.single-image-container img {
+  max-width: 600px;
+  height: auto;
+}*/
 </style>
 </head>
 <body>
@@ -338,24 +361,28 @@
   <p>در آثار یافت شده گنجینه تیلا تپه (Tillā tapa: Golden Hill; طلا تپه) در شمال افغانستان (خراسان) مربوط به سده یکم‌ پیش از میلاد تا یکم میلادی با آثار بسیار دیدنی از نمادهای ستاره تنها و ماه و ستاره و چلیپای ساده معروف به نشان درفش کاویانی و نیز چلیپای شکسته برمی‌خوریم که همانندی به نشان پازیریک هم دارد. این آثار در موزه کابل قرار داشتند ولی با چیرگی طالبان در افغانستان از سرنوشت این آثار آگاهی‌ نداریم که آیا در امان هستند یا نابود شده...؟!</p>
 </div>
 
-<div class="image-pair">
-  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/refs/heads/main/IMG_20250412_231727_812.jpg" alt="عکس اول" width="300">
-  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/refs/heads/main/IMG_20250412_231727_913.jpg" alt="عکس دوم" width="300">
+<div class="image-container">
+  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/refs/heads/main/IMG_20250412_231727_812.jpg" alt="عکس اول">
+  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/refs/heads/main/IMG_20250412_231727_913.jpg" alt="عکس دوم">
 </div>
 
-<div class="image-pair">
-  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/refs/heads/main/IMG_20250412_231728_102.jpg" alt="عکس سوم" width="300">
-  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/81587ea52ec85fbc649367dfc83fd57163d0706e/IMG_20250412_231728_360.jpg" alt="عکس چهارم" width="300">
+<div class="image-container">
+  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/refs/heads/main/IMG_20250412_231728_102.jpg" alt="عکس سوم">
+  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/81587ea52ec85fbc649367dfc83fd57163d0706e/IMG_20250412_231728_360.jpg" alt="عکس چهارم">
 </div>
 
-<div class="image-pair">
-  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/81587ea52ec85fbc649367dfc83fd57163d0706e/IMG_20250412_231728_567.jpg" alt="عکس پنجم" width="300">
-  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/81587ea52ec85fbc649367dfc83fd57163d0706e/IMG_20250412_231728_603.jpg" alt="عکس ششم" width="300">
+<div class="image-container">
+  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/81587ea52ec85fbc649367dfc83fd57163d0706e/IMG_20250412_231728_567.jpg" alt="عکس پنجم">
+  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/81587ea52ec85fbc649367dfc83fd57163d0706e/IMG_20250412_231728_603.jpg" alt="عکس ششم">
 </div>
 
-<div class="single-image">
-  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/81587ea52ec85fbc649367dfc83fd57163d0706e/IMG_20250412_231727_839.jpg" alt="عکس هفتم" width="300">
+<div class="single-image-container">
+  <img src="https://raw.githubusercontent.com/Derafshkavian/Derafshe_Kaviani/81587ea52ec85fbc649367dfc83fd57163d0706e/IMG_20250412_231727_839.jpg" alt="عکس هفتم">
 </div>
+
+</body>
+</html>
+
 
 </body>
 </html>
