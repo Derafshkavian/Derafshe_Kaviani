@@ -388,22 +388,31 @@
 <head>
 <title>تابلو نبرد ایسوس و درفش کاویانی</title>
 <style>
+body {
+  background-color: #000000; /* پس زمینه مشکی برای جداسازی بهتر */
+  padding-top: 40px; /* ایجاد فاصله از محتوای قبلی */
+}
+
 .white-text {
   color: #FFFFFF;
   margin-bottom: 20px;
+  padding: 20px; /* کمی حاشیه داخلی برای متن */
+  border: 1px solid #333; /* حاشیه ملایم برای جدا نشان دادن بخش متن */
 }
 
 .image-container {
   display: flex;
-  flex-direction: column; /* قرارگیری عکس‌ها زیر هم */
-  align-items: center; /* تراز کردن عکس‌ها در وسط */
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 20px;
+  padding: 20px; /* کمی حاشیه داخلی برای تصاویر */
+  border: 1px solid #333; /* حاشیه ملایم برای جدا نشان دادن بخش تصاویر */
 }
 
 .image-container img {
-  max-width: 80%; /* حداکثر 80% عرض صفحه */
-  height: auto; /* حفظ نسبت تصویر */
-  margin-bottom: 10px; /* فاصله بین عکس‌ها */
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 /* برای محدود کردن عرض در پیکسل (جایگزین max-width در صورت نیاز) */
